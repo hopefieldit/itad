@@ -1,0 +1,256 @@
+/*===========================POPUP===========================*/
+.popup{
+    overflow: overlay;
+    width: 90vw;
+    max-width: 460px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: #fff;
+    -webkit-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+	z-index: 99999999 !important;
+}
+.popup-window{font-family:Arial,Helvetica,sans-serif;font-size:12px;}
+.popup-window > *:last-child{border-radius: 0px 0 5px 5px;}
+.popup-icon-close, .popup-title{ 
+    display: inline-block;
+}
+
+.popup-icon-close{
+    position: absolute; 
+    top: 5px; 
+    right: 5px;
+    font-size: 24px !important;
+}
+
+.popup-title{ 
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.popup-header a{color: #fff !important;}
+.popup-header{
+    padding: 5px;
+    font-size: 1.5em;
+    background-color: #323332;
+    color: #fff !important;
+    border-radius: 5px 5px 0px 0px;
+    padding-bottom: 10px;
+     font-weight: bold;
+}
+
+.popup-icon-close, .popup-icon-close *{
+    font-size: 24px;
+}
+.popup-content{
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+/*------------ BOOKING FORM -------------*/
+.form-uploaddoc{ position:relative; width:100%; height:32px;}
+.form-uploaddoc div{
+	/*
+    height: 20px;
+    width: 20px;
+    position: relative;
+	*/
+    cursor: pointer;
+    /*Using a background color, but you can use a background image to represent a button*/
+    background-color: #DDF;
+    border-color:1px solid #c00;
+}
+.form-uploaddoc input[type="file"]{
+    cursor: pointer;
+	background-color:#fff;
+	width:120px;
+}
+/*==================== CRM CSS =========================*/
+.crm-block{}
+.crm-col1{position:relative; float:left;width:20%;background-color: #e7e7e8; border: solid 1px lightblue; min-height:500px;}
+.crm-col2{position:relative; float:left;width:80%;  min-height:500px;}
+
+.crm-result{background-color:#F6F4F4;}
+.crm-result td{text-align:center; font-size:10px; color:#404040; border:1px solid #E9E5E5;}
+.crm-resultempty{margin-top:30px; margin-left:30px; margin-bottom:30px; color:#202020; font-weight:bold; font-size:18px; line-height:34px;}
+
+.crm-button{display:block;height:30px; width:auto; font-size:12px !important;background-color:#323332; border:1px solid #323332; color:#fff !important; text-align:center; padding-top:8px; padding-left:15px; padding-right:15px; text-transform:uppercase;}
+.crm-button:hover{opacity:0.7; transition:all 0.75s ease;-webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; -o-transition: all 0.75s ease; }
+.crm-button-list{display:block;height:20px !important;width:70px;font-size:11px;background-color:#F1F4F7; border:1px solid #11316E; color:#11316E !important; text-align:center; padding:0px !important; padding-top:3px !important; margin:0px !important; line-height:12px !important;}
+.crm-button-list:hover{opacity:0.7; transition:all 0.75s ease;-webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; -o-transition: all 0.75s ease; }
+
+.crm-button-insert{position:relative; float:left; height:30px; width:185px; font-size:12px !important;background-color:#C00000; border:1px solid #323332; color:#fff !important; text-align:center; padding-top:8px; padding-left:15px; padding-right:15px; text-transform:uppercase;}
+.crm-button-insert:hover{opacity:0.7; transition:all 0.75s ease;-webkit-transition: all 0.75s ease; -moz-transition: all 0.75s ease; -o-transition: all 0.75s ease; }
+
+.crm-form{}
+.crm-form input[type="text"],.crm-form input[type="password"],.crm-form textarea, .crm-form select{position:relative; float:left;border: 1px solid #e0e0e0; background-color: #fff;padding: 4px 3px 3px 7px;-moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);-webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);   -o-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);}
+
+.crm-control{font-size:11px;}
+.crm-control div{position:relative; float:left;}
+.crm-control h3{color:#404040; font-size:12px !important;margin:0px; padding:0px;}
+.crm-control input[type="text"],.om-control textarea, .om-control select{position:relative; float:left;border: 1px solid #e0e0e0;    background-color: #fbfbfb;padding: 4px 3px 3px 7px;-moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);-webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);   -o-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);}
+.crm-control input{font-size:11px; height:25px;}
+.crm-control span{font-weight:bold;}
+.crm-control select{font-size:11px; width:200px; height:25px;color:#808080;}
+.crm-control td{padding-left:3px;padding-right:3px;}
+.crm-control img{height:20px; width:20px;}
+.crm-control i{margin-left:20px;}
+
+.crm-control-date{border-spacing: 0;   border-collapse: collapse;}
+.crm-control-date input{width:160px !important; }
+.crm-control-date td{padding:0px; margin:0px;}
+.crm-control-date td:nth-child(1){width:180px !important;}
+.crm-control-date td:nth-child(2){width:180px !important;}
+
+.crm-top{}
+.crm-top div{position:relative;float:left;}
+.crm-top div:nth-child(1){}
+.crm-top div:nth-child(2){float:right;}
+
+/*------------------------ LIST -----------------------*/
+.crm-list-career{}
+.crm-list-career td{overflow:hidden; height:20px;}
+.crm-list-career td:nth-child(1){width:250px;}
+.crm-list-career td:nth-child(2){width:150px;}
+.crm-list-career td:nth-child(3){width:150px;}
+.crm-list-career td:nth-child(5){width:100px;}
+.crm-list-career td:nth-child(6){width:25px;}
+.crm-list-career td:nth-child(7){width:25px;}
+
+.crm-list-booking {}
+.crm-list-booking td{overflow:hidden; min-height:20px;}
+.crm-list-booking td:nth-child(1){max-width:100px;}
+.crm-list-booking td:nth-child(2){max-width:100px;color:#f00;}
+.crm-list-booking td:nth-child(3){max-width:140px;}
+.crm-list-booking td:nth-child(4){max-width:200px;}
+.crm-list-booking td:nth-child(5){max-width:120px;}
+.crm-list-booking td:nth-child(6){max-width:120px;font-weight:bold;}
+.crm-list-booking td:nth-child(7){max-width:80px;}
+.crm-list-booking td:nth-child(8){max-width:80px;}
+.crm-list-booking td:nth-child(9){max-width:80px;}
+.crm-list-booking tr:nth-child(1) td{height:10px;}
+
+.crm-list-enquiry {}
+.crm-list-enquiry td{overflow:hidden; height:20px;}
+.crm-list-enquiry td:nth-child(1){width:100px;}
+.crm-list-enquiry td:nth-child(2){width:120px;}
+.crm-list-enquiry td:nth-child(3){width:200px;}
+.crm-list-enquiry td:nth-child(4){}
+.crm-list-enquiry td:nth-child(5){width:120px;}
+.crm-list-enquiry td:nth-child(6){width:100px;}
+
+.crm-list-register {}
+.crm-list-register td{overflow:hidden; height:20px;}
+.crm-list-register td:nth-child(1){width:100px;}
+.crm-list-register td:nth-child(2){width:120px;}
+.crm-list-register td:nth-child(3){width:200px;}
+.crm-list-register td:nth-child(4){}
+.crm-list-register td:nth-child(5){width:120px;}
+.crm-list-register td:nth-child(6){width:100px;}
+.crm-list-register td:nth-child(7){width:25px;}
+.crm-list-register td:nth-child(8){width:25px;}
+
+.crm-list-calendar{}
+.crm-list-calendar td{overflow:hidden; height:20px;}
+.crm-list-calendar td:nth-child(1){width:120px;}
+.crm-list-calendar td:nth-child(2){width:120px;}
+.crm-list-calendar td:nth-child(3){width:250px;}
+.crm-list-calendar td:nth-child(4){}
+.crm-list-calendar td:nth-child(5){width:80px;}
+.crm-list-calendar td:nth-child(6){width:25px;}
+.crm-list-calendar td:nth-child(7){width:25px;}
+
+.crm-list{border:1px solid #c0c0c0; width:100%; font-size:12px; border-collapse: collapse;border-spacing:0px;table-layout:fixed;}
+.crm-list td{padding:3px; padding-left:5px; padding-top:5px; padding-bottom:5px;}
+.crm-list tr{border-bottom:1px solid #c0c0c0;}
+.crm-list tr:nth-child(1){background-color:#C0C0C0;  font-size:12px; color:#202020; font-weight:bold;}
+.crm-list tr:nth-child(1) td{height:30px !important; padding-top:7px;}
+.crm-list_disable{ color:#C00000 !important;}
+.crm-list img{margin-top:5px;width:15px; height:15px;}
+.crm-list td div{margin-top:3px;height:20px !important;}
+.crm-list-row0{}
+.crm-list-row1{color:#f00;text-decoration: line-through;}
+.crm-result{font-size:10px;background-color:#F2F0F0; color:#202020;}
+
+.om-popup-main{width:800px; height:auto; border:1px solid #333;z-index:999999999; color:#202020; line-height:14px; background-color:#F9F7F7;padding-bottom:10px; padding:20px; font-size:11px; border-radius:5px;}
+.om-popup-main-short{width:200px;padding:5px;}
+.om-popup-close{position:absolute; right:-5px;top:-5px;}
+.om-popup-details h3{margin:0px;}
+.om-popup-details{height:auto !important; width:100%;}
+.om-popup-details td{padding:3px;vertical-align:top;}
+.om-popup-details table{width:100%; }
+.om-popup-details span{font-weight:bold;display:block;}
+.om-popup-details textarea{width:350px; height:120px;}
+.om-popup-details select{width:250px;}
+
+
+/*---------- section popup ---------*/
+.view-popup{ padding-left:10px; padding-right:10px; font-size:11px; border:1px solid #c0c0c0; margin-left:5px; width:500px; margin:0px !important;}
+.view-popup td{height:25px;padding:2px; vertical-align:top;}
+.view-popup td:nth-child(1){width:150px;text-align:right;padding-top:15px;}
+.view-popup-header{background-color:#808080; font-weight:bold; font-size:16px; padding-top:10px;padding-left:10px; color:#FFF; text-transform:uppercase;}
+.view-popup-header span{position:relative; float:left;top:3px;}
+
+.inputFile{
+ border: 1px solid #ccc;
+    display: inline-block;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+.view-edit-main{background-color:#fff;z-index:999999999; padding-bottom:10px;}
+.view-edit-main table{border-spacing: 0; border-collapse: collapse;}
+.view-main{width:100%;padding:20px;border:1px solid #c0c0c0;min-height:450px;}
+.view-main h1{color:#808080; margin-bottom:10px;}
+.view-main table{border-spacing: 0; border-collapse: collapse;}
+.view-header{background-color:#DDD9D9; font-weight:bold; font-size:16px; padding-top:10px; padding-left:10px; color:#808080; text-transform:uppercase;}
+.view-header span{position:relative; float:left; top:-3px;}
+
+.view-edit-table{font-family:Arial, Helvetica, sans-serif; font-size:11px; margin:0px !important; margin-top:5px !important;}
+.view-edit-table td{padding-top:4px !important;padding-bottom:4px !important; vertical-align:top !important; }
+.view-edit-table td:nth-child(1){width:200px; text-align:right;}
+.view-edit-table td:nth-child(2){width:300px; text-align:left; }
+.view-edit-table input[type="text"],input[type="password"],.view_edit_main textarea, .view_edit_main select{display:block !important; border: 1px solid #e0e0e0; background-color: #fbfbfb;padding: 4px 3px 3px 7px;-moz-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);-webkit-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);   -o-box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1);    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.1); font-size:11px;}
+.view-edit-table textarea{font-family:Arial,Helvetica,sans-serif; font-size:11px; width:250px !important; height:50px !important; margin:0px !important;}
+.view-edit-table input[type="text"],input[type="password"]{width:250px !important;}
+.view-edit-table select{width:255px !important;}
+
+.view-check{width:100%;}
+.view-check_border{border:1px solid #c0c0c0;}
+.view-check input{position:relative; float:left;}
+.view-check td{height:auto; padding:2px !important; }
+.view-check span{position:relative; float:left; left:5px; top:3px;}
+
+.view-img{border-spacing: 0; border-collapse: collapse;}
+.view-imgupload{}
+.view-imgupload div{
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    /*Using a background color, but you can use a background image to represent a button*/
+    background-color: #DDF;
+    border-color:1px solid #c00;
+}
+.view-imgupload input[type="text"]{
+    cursor: pointer;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    /*This makes the button huge. If you want a bigger button, increase the font size*/
+    font-size:20px;
+    /*Opacity settings for all browsers*/
+    opacity: 0;
+    -moz-opacity: 0;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0)
+}
+@media screen and (max-width: 767px){
+.crm-list tr:nth-child(1){ display:none}
+}
